@@ -1,3 +1,5 @@
+//Code written by Aaron Anderson for building out a portfolio/resume website
+
 import './App.css';
 
 function App() {
