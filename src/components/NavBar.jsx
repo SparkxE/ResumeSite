@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function NavBar(){
     return(
         <nav className='container'>
-            <ul role="listbox">
+            <ul>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -12,6 +12,9 @@ function NavBar(){
                 </li>
                 <li>
                     <Link to="/history">Work History</Link>
+                </li>
+                <li>
+                    <Link to="/education">Education</Link>
                 </li>
             </ul>
         </nav>
