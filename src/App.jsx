@@ -25,7 +25,10 @@ function App() {
           </Routes>
         </div>
         <div>
-          <footer>This site was created by Aaron Anderson using React.JS and Vite</footer>
+          <footer>
+            This site was created by Aaron Anderson using React.JS and Vite -
+            <a href="https://www.flaticon.com/free-icons/letter-a" title="letter a icons"> Letter A icon created by Freepik - Flaticon</a>
+          </footer>
         </div>
       </div>
     </BrowserRouter>
