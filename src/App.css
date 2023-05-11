@@ -1,7 +1,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  background-color: darkslategray;
+  background: url('../public/mainBackground.jpg'), rgba(47, 79, 79, .5);
+  background-blend-mode: darken;
 }
 
 button {
@@ -14,8 +15,10 @@ button {
   cursor: pointer;
 }
 
-h3, h4 {
+h1, h3,
+h4 {
   margin-bottom: 0;
+  margin-left: 20px;
 }
 
 nav {
@@ -24,7 +27,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: dimgray;
+  background: rgba(105, 105, 105, .75);
 }
 
 nav ul {
@@ -44,11 +47,13 @@ nav a {
   color: white;
   font-weight: bold;
   padding: 24px 32px;
+  transition: 0.75s;
 }
 
 nav a:hover {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
+  border-radius: 25px;
 }
 
 footer {
@@ -88,7 +93,8 @@ footer {
   width: 320px;
 }
 
-#upvotes-section button, p {
+#upvotes-section button,
+p {
   display: inline-block;
   margin-right: 16px;
 }
