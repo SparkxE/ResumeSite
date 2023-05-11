@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  background: url('../public/mainBackground.jpg'), rgba(47, 79, 79, .5);
+  background: url('/mainBackground.jpg'), rgba(47, 79, 79, .5);
   background-blend-mode: darken;
 }
 
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  background: black;
+  background: rgba(0, 0, 0, .5);
   color: white;
   border-radius: 25px;
 }
