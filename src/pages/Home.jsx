@@ -1,7 +1,7 @@
 function Home(){
 
     return(
-        <div>
+        <>
             <h1>This is the Home Page</h1>
             <p>
             Fusce suscipit, urna ac commodo posuere, neque justo finibus ex, eu suscipit nibh quam at enim. Ut sit amet convallis tellus. Fusce eget sodales felis, ut ullamcorper mi. Suspendisse nec porttitor felis. Praesent luctus rhoncus commodo. Quisque ac metus nisl. Ut tristique accumsan lectus id feugiat. Vestibulum est ligula, dictum non sagittis nec, hendrerit vel tortor. Mauris tincidunt dolor non dolor rhoncus, ac ornare ante commodo. Vivamus pretium ligula sit amet auctor ornare. Praesent sollicitudin enim turpis, ut convallis mauris scelerisque a.
@@ -14,7 +14,7 @@ Ut orci sapien, suscipit non euismod sit amet, malesuada sit amet magna. Proin a
 
 Etiam sit amet turpis a arcu blandit dictum. Aenean semper eget est nec mollis. Aenean lacinia ultricies lacus, id maximus metus suscipit vel. Vivamus venenatis leo eu eros sodales accumsan a ut nulla. Vivamus eget nisi a nunc mattis egestas ac non erat. Pellentesque laoreet, lectus venenatis congue tempor, risus ipsum fermentum felis, a dignissim nisi felis eget nisl. Aliquam id nibh ornare, cursus massa non, fringilla dui. Nulla vitae nisi ac sem consequat fringilla. Nam feugiat sodales turpis eu pharetra. Curabitur ac mattis sem. Phasellus tempor iaculis dolor, quis congue nunc vulputate ac. Vestibulum id ipsum lectus. Quisque in tempor risus. Vivamus leo lorem, scelerisque in lorem eget, rutrum auctor erat. Etiam in erat accumsan, rutrum quam eget, finibus sem. Aliquam ultricies, arcu quis viverra dictum, augue magna tristique turpis, nec finibus mauris leo et ante.
             </p>
-        </div>
+        </>
     )
 }
 
