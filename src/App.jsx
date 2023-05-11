@@ -13,7 +13,7 @@ function App() {
     <>
     <BrowserRouter>
       <div className='App'>
-        <div>
+        <div style={{'position':'sticky'}}>
           <NavBar/>
         </div>
         <div id='page-body'>
