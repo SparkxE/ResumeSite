@@ -16,7 +16,17 @@ button {
   cursor: pointer;
 }
 
-h1, h3,
+h1{
+  margin-bottom: 0;
+  font-weight: normal;
+  width: 90vw;
+}
+
+h2{
+  font-weight: normal;
+}
+
+h3,
 h4 {
   margin-bottom: 0;
   margin-left: 20px;
@@ -122,4 +132,9 @@ p {
   position: absolute;
   top: 8px;
   right: 8px;
+}
+
+div p{
+  margin-inline-start: 40px;
+  justify-content:center;
 }
