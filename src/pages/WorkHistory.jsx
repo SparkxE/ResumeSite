@@ -2,7 +2,7 @@ function WorkHistory(){
 
     return(
         <div>
-            <h1 style={{'margin-left':'10px'}}>Current Work History</h1>
+            <h1>Current Work History</h1>
             <div style={{'display':'flex', 'width':'100vw'}}>
                 <p>
                     <h2>
