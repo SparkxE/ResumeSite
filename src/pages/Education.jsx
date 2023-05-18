@@ -2,7 +2,7 @@ function Education(){
 
     return(
         <div>
-            <h1 style={{'margin-left':'10px'}}>Current Education & Relevant Classes</h1>
+            <h1>Current Education & Relevant Classes</h1>
             <div style={{'display':'flex', 'width':'90vw'}}>
                 <p>
                     <h2>

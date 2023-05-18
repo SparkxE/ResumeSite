@@ -1,23 +1,23 @@
-import { Link } from "react-router-dom";
+import logo from '../assets/ALogo.png';
 
-function NavBar(){
-    return(
-        <nav className='container'>
+function NavBar() {
+    return (
+        <nav>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <a href="/"><img src={logo} height='30' width='30'></img></a>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <a href="/about">About</a>
                 </li>
                 <li>
-                    <Link to="/history">Work History</Link>
+                    <a href="/history">Work History</a>
                 </li>
                 <li>
-                    <Link to="/education">Education</Link>
+                    <a href="/education">Education</a>
                 </li>
                 <li>
-                    <Link to="/contact">Contact Info</Link>
+                    <a href="/contact">Contact</a>
                 </li>
             </ul>
         </nav>
