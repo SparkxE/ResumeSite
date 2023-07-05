@@ -5,7 +5,7 @@ function NavBar() {
         <nav>
             <ul>
                 <li>
-                    <a href="/"><img src={logo} height='30' width='30'></img></a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
                     <a href="/about">About</a>

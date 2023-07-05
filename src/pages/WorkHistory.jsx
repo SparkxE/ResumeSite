@@ -3,7 +3,7 @@ function WorkHistory(){
     return(
         <div>
             <h1>Current Work History</h1>
-            <div style={{'display':'flex', 'width':'100vw'}}>
+            <div style={{'display':'flex', 'width':'90vw', 'flex':'auto'}}>
                 <p>
                     <h2>
                         <strong>IT Development Intern <br/>Blattner Company - </strong> Avon, MN
@@ -11,21 +11,22 @@ function WorkHistory(){
                     <em>Sept. 2022 - May 2023</em>
                     <ul>
                         <li>
-                            Used React and JavaScript to assist application developers
-                            <br/>with production
-                            of Mobile and Web Apps used on Construction Sites
+                            Used React and JavaScript to assist 
+                            <br/>application developers with production of 
+                            <br/>Mobile and Web Apps used on 
+                            Construction Sites
                         </li>
                         <li>
-                            Performed manual testing to ensure that changes and updates 
-                            <br/>made to apps met user and company standards
+                            Performed manual testing to ensure that 
+                            <br/>changes and updates made to apps met 
+                            <br/>user and company standards
                         </li>
                         <li>
-                            Worked on the refinement and documentation of 
-                            <br/>IT Department processes
+                            Worked on the refinement and documentation 
+                            <br/>of IT Department processes
                         </li>
                         <li>
-                            Used Boomi middleware to connect solutions to data and 
-                            <br/>automate software interactions
+                            Used Boomi middleware to connect solutions to data and automate software interactions
                         </li>
                     </ul>
                 </p>
@@ -34,11 +35,9 @@ function WorkHistory(){
                     <em>June 2020 - Aug. 2022</em>
                     <ul>
                         <li>
-                            Provided customer assistance with locating and 
-                            <br/>sourcing desired products
+                            Provided customer assistance with locating and sourcing desired products
                         </li>
-                        <li>
-                            Performed gaming hardware troubleshooting</li>
+                        <li>Performed gaming hardware troubleshooting</li>
                         <li>Maintained store organization and presentation</li>
                         <li>General cleaning and miscellaneous tasks</li>
                     </ul>
