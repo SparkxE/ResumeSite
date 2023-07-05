@@ -83,15 +83,15 @@ footer {
   background: dimgray;
 }
 
-footer a{
+footer a, p a{
   color:aquamarine
 }
 
-footer a:hover{
+footer a:hover, p a:hover{
   color:plum
 }
 
-footer a:visited{
+footer a:visited, p a:visited{
   color:coral
 }
 

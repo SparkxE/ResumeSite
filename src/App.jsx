@@ -7,6 +7,7 @@ import WorkHistory from './pages/WorkHistory';
 import NavBar from './components/NavBar';
 import Education from './pages/Education';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             <Route path='/history' element={<WorkHistory/>}></Route>
             <Route path='/education' element={<Education/>}></Route>
             <Route path='/contact' element={<Contact/>}></Route>
+            <Route path='/notFound' element={<NotFound/>}></Route>
           </Routes>
         </div>
         <div>
