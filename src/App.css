@@ -97,46 +97,13 @@ footer a:visited, p a:visited{
 
 #page-body {
   max-width: 960px;
-  margin: auto;
+  margin: 20px;
   padding-top: 72px;
 }
 
-.article-list-item {
-  text-decoration: none;
-  color: black;
-  padding: 16px 0 0 0;
-}
-
-.article-list-item p {
-  padding-bottom: 32px;
-  border-bottom: 2px solid black;
-}
-
-.error {
-  padding: 8px;
-  border-radius: 4px;
-  background-color: pink;
-}
-
-#add-comment-form button {
-  width: 320px;
-}
-
-#upvotes-section button,
-p {
-  display: inline-block;
-  margin-left: 16px;
-}
-
-.comment {
-  border-bottom: 2px solid black;
-  padding: 16px;
-}
-
-.nav-right {
-  position: absolute;
-  top: 8px;
-  right: 8px;
+div{
+  display: grid;
+  width: 80vw;
 }
 
 div p{

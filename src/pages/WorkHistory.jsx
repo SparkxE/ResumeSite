@@ -1,9 +1,9 @@
 function WorkHistory(){
 
     return(
-        <div>
+        <>
             <h1>Current Work History</h1>
-            <div style={{'display':'flex', 'width':'90vw', 'flex':'auto'}}>
+            <div style={{'display':'flex', 'width':'90vw'}}>
                 <p>
                     <h2>
                         <strong>IT Development Intern <br/>Blattner Company - </strong> Avon, MN
@@ -52,7 +52,7 @@ function WorkHistory(){
                     </ul>
                 </p>
             </div>
-        </div>
+        </>
     )
 }
 
