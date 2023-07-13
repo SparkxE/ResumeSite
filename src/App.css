@@ -16,14 +16,14 @@ button {
   cursor: pointer;
 }
 
-h1{
+h1 {
   margin-bottom: 0;
   font-weight: normal;
   width: 90vw;
   margin-left: 10px;
 }
 
-h2{
+h2 {
   font-weight: normal;
 }
 
@@ -69,7 +69,7 @@ nav a:hover {
   border-radius: 25px;
 }
 
-nav img{
+nav img {
   bottom: 0;
 }
 
@@ -83,30 +83,37 @@ footer {
   background: dimgray;
 }
 
-footer a, p a{
-  color:aquamarine
+footer a,
+div a {
+  color: aquamarine
 }
 
-footer a:hover, p a:hover{
-  color:plum
+footer a:hover,
+div a:hover {
+  color: plum
 }
 
-footer a:visited, p a:visited{
-  color:coral
+footer a:visited,
+div a:visited {
+  color: coral
 }
 
 #page-body {
   max-width: 960px;
   margin: 20px;
-  padding-top: 72px;
+  padding-top: 50px;
 }
 
-div{
+div {
   display: grid;
   width: 80vw;
 }
 
-div p{
+div li {
   margin-inline-start: 40px;
-  justify-content:center;
+  justify-content: center;
+}
+
+nav a:visited{
+  color: white
 }
