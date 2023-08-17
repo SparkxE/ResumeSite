@@ -35,12 +35,12 @@ h4 {
 }
 
 nav {
-  border-bottom: 4px solid black;
+  border-bottom: 2px solid rgba(49, 49, 49, 0.75);
   text-align: left;
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(105, 105, 105, .75);
+  background: rgba(105, 105, 105, .65);
 }
 
 nav ul {
@@ -74,22 +74,23 @@ nav img {
 }
 
 footer {
-  border-top: 2px solid black;
+  border-top: 2px solid rgba(49, 49, 49, 0.75);
   text-align: center;
   font-size: 14px;
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: dimgray;
+  background: rgba(100, 115, 115, 0.95);
 }
 
 footer a,
-div a {
+div li a {
   color: aquamarine
 }
 
 footer a:hover,
-div a:hover {
+div a:hover,
+div a:hover:visited {
   color: plum
 }
 
@@ -114,6 +115,6 @@ div li {
   justify-content: center;
 }
 
-nav a:visited{
+nav a:visited {
   color: white
 }
