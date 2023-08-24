@@ -15,7 +15,7 @@ function Home() {
                 <br />
             </p>
             <img style={{ gridColumn: '3/4', gridRow: '1/4', margin: '40px' }} src={picture} />
-            <h2 style={{ gridColumn: '1/2', gridRow: '3/5', marginInlineStart: '40px' }}> - Aaron Anderson</h2>
+            <h2 style={{ gridColumn: '1/2', gridRow: '3/4', marginInlineStart: '40px' }}> - Aaron Anderson</h2>
         </div>
     )
 }

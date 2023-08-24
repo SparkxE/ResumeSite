@@ -84,13 +84,14 @@ footer {
 }
 
 footer a,
-div li a {
+div p li a {
   color: aquamarine
 }
 
 footer a:hover,
-div a:hover,
-div a:hover:visited {
+footer a:hover:visited,
+div p a:hover,
+div p a:hover:visited {
   color: plum
 }
 
