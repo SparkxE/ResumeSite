@@ -1,9 +1,9 @@
 import './Pages.css';
 function Contact() {
     return (
-        <div>
+        <div id='contact'>
             <h1>Contact Info</h1>
-            <div style={{ 'display': 'grid', 'width': '90vw' }}>
+            <div>
                 <div>
                     <p>
                     <ul>

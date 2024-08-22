@@ -2,9 +2,9 @@ import './Pages.css';
 function Education() {
 
     return (
-        <div>
+        <div id='education'> 
             <h1>Current Education & Relevant Classes</h1>
-            <div style={{ 'display': 'flex', 'width': '90vw' }}>
+            <div id='schools'>
                 <div>
                     <ul>
                         <h2>
