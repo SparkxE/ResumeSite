@@ -2,7 +2,9 @@ import './Pages.css';
 function About() {
 
     return (
-        <h1>This is the About Page</h1>
+        <div id='about'>
+            <h1>About Me</h1>
+        </div>
     )
 }
 

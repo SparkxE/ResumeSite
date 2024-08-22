@@ -26,6 +26,15 @@
     }
 }
 
+#work-history {
+    margin-inline-start: 40px;
+}
+
+#employers {
+    display: flex;
+    width: 90vw;
+}
+
 #contact {
     display: grid;
     width: 90vw;
@@ -41,6 +50,34 @@
     width: 90vw;
 }
 
-#about {}
+#about {
+    display: grid;
+    margin-inline-start: 40px;
 
-#NotFound {}
+    h1 {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+
+    p {
+        grid-column: 1 / 3;
+        grid-row: 2 / 4;
+        margin-inline-start: 40px;
+    }
+}
+
+#not-found {
+    display: grid;
+    margin-inline-start: 40px;
+
+    h1 {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+
+    p {
+        grid-column: 1 / 3;
+        grid-row: 2 / 4;
+        margin-inline-start: 40px;
+    }
+}

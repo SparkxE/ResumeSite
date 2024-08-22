@@ -2,7 +2,7 @@ import './Pages.css';
 function NotFound() {
 
     return (
-        <div id='NotFound'>
+        <div id='not-found'>
             <h1>Oops! Page Not Found</h1>
             <p>
                 It looks like something went wrong and the page you were looking for can't be found!
@@ -12,7 +12,6 @@ function NotFound() {
                 <br />
                 Sorry for the inconvenience!
                 <br />
-
             </p>
         </div>
     )
