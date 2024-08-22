@@ -6,14 +6,15 @@ function Home() {
         <div id='home'>
             <h1>Welcome!</h1>
             <p>
-                Hi! My name is Aaron Anderson, I'm an aspiring Software Developer from Anoka, Minnesota.
-                I'm currently studying Computer Application Development at Minnesota State University
-                in Mankato, MN, and I'm currently looking for opportunities to gain development experience.
-                I have worked with a variety of coding languages including C#, C++, JavaScript, and Java. I have some
-                basic experience with Python, and I have used JavaScript mostly using React and React Native frameworks.
-                I also have some experience in working with SQL Database Systems and with Linux-based server systems,
-                most recently using VPS servers being hosted by both Google Cloud Platform and Amazon Web Service.
+                Hi! My name is Aaron Anderson, and this is a webpage that acts as a digital copy of my resume. 
+                I built this webpage myself using React.js and the Vite framework as a way of demonstrating my practical knowledge
+                with front-end development. If you're an employer who's looking for a new software developer, please feel free 
+                to check out the other pages to know more about me and see whether I'd be a good fit for the position!
+                I also have my contact information listed on its own page for easy reference with links to my LinkedIn and GitHub
+                profiles, as well as a link for my email. 
                 <br />
+                <br /> 
+                Thanks for visiting!
             </p>
             <img src={picture} />
             <h2> - Aaron Anderson</h2>
