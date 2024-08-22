@@ -1,3 +1,4 @@
+import './Pages.css';
 function Education() {
 
     return (
@@ -11,10 +12,10 @@ function Education() {
                         </h2>
                         <em>Degree & Major</em>: Bachelor of Applied Science in Computer Application Development
                         <li>Current GPA of 3.54</li>
-                        <li>Database Management Systems (SQL)</li>
-                        <li>Mobile Device Application Programming (Fall 2023)</li>
-                        <li>Game Design and Development (Fall 2023)</li>
-                        <li>Web Application Design and Development (Fall 2023)</li>
+                        <li>Advanced Object Oriented Programming with Design Patterns (C# and Unity Engine)</li>
+                        <li>Mobile Device Application Programming (C# and Unity Engine)</li>
+                        <li>Game Design and Development (C# and Unity Engine)</li>
+                        <li>Web Application Design and Development (HTML & CSS, JavaScript, C#)</li>
                     </ul>
                 </div>
                 <div>

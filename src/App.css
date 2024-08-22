@@ -105,6 +105,9 @@ div a:visited {
   margin: 20px;
   padding-top: 50px;
 }
+#NavbarItem {
+  position:sticky;
+}
 
 div {
   display: grid;

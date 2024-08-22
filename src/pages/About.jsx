@@ -1,3 +1,4 @@
+import './Pages.css';
 function About() {
 
     return (
