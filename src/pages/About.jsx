@@ -6,7 +6,7 @@ function About() {
             <h1>About Me</h1>
             <p>
                 I'm an aspiring Software Developer from Anoka, Minnesota.
-                I'm currently studying Computer Application Development at Minnesota State University
+                I recently graduated with my degree in Computer Application Development at Minnesota State University
                 in Mankato, MN, and I'm currently looking for opportunities to gain development experience.
                 I have worked with a variety of coding languages including C#, C++, JavaScript, and Java. I have some
                 basic experience with Python, and I have used JavaScript mostly using React and React Native frameworks.

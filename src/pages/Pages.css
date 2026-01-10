@@ -53,6 +53,7 @@
 
 #about {
     display: grid;
+    width: 90vw;
     margin-inline-start: 40px;
 
     h1 {

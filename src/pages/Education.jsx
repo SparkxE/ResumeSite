@@ -8,14 +8,15 @@ function Education() {
                 <div>
                     <ul>
                         <h2>
-                            <strong>Minnesota State University - Mankato: 2023 - Present</strong> Mankato, MN
+                            <strong>Minnesota State University - Mankato: Jan 2023 - Dec 2025</strong> Mankato, MN
                         </h2>
                         <em>Degree & Major</em>: Bachelor of Applied Science in Computer Application Development
-                        <li>Current GPA of 3.54</li>
-                        <li>Advanced Object Oriented Programming with Design Patterns (C# and Unity Engine)</li>
-                        <li>Mobile Device Application Programming (C# and Unity Engine)</li>
-                        <li>Game Design and Development (C# and Unity Engine)</li>
-                        <li>Web Application Design and Development (HTML & CSS, JavaScript, C#)</li>
+                        <li>Graduated with 3.49 GPA</li>
+                        <li>Advanced Object Oriented Programming with Design Patterns <strong>(C# and Unity Engine, Git)</strong></li>
+                        <li>Mobile Device Application Programming <strong>(C# and Unity Engine, Git)</strong></li>
+                        <li>Game Design and Development <strong>(C# and Unity Engine, Git)</strong></li>
+                        <li>Web Application Design and Development <strong>(HTML & CSS, JavaScript, C#, Git)</strong></li>
+                        <li>Quality Assurance & Testing</li>
                     </ul>
                 </div>
                 <div>
@@ -25,8 +26,8 @@ function Education() {
                         </h2>
                         <em>Degree & Major</em>: Bachelor of Science in Software Engineering
                         <li>Ending GPA of 3.52</li>
-                        <li>Computer Science I & II (C++)</li>
-                        <li>Software Engineering and Human Computer Interactions (React Native & Expo, JavaScript)</li>
+                        <li>Computer Science I & II <strong>(C++)</strong></li>
+                        <li>Software Engineering and Human Computer Interactions <strong>(React Native & Expo, JavaScript, Git)</strong></li>
                         <li>Participated in Collegiate Cyber Defense Competition Club - 2021-2022, Fall 2022</li>
                     </ul>
                 </div>
@@ -37,10 +38,10 @@ function Education() {
                         </h2>
                         <em>Degree & Major</em>: Associate of Science, Liberal Arts - Computer Science
                         <li>Graduated with 3.86 GPA and President's Honor List Throughout</li>
-                        <li>Computer Science I & II (Java)</li>
+                        <li>Computer Science I & II <strong>(Java)</strong></li>
                         <li>HTML and CSS</li>
-                        <li>Database Concepts (SQL)</li>
-                        <li>Operating Systems (Linux) - with Linux Pro Certificate</li>
+                        <li>Database Concepts <strong>(SQL)</strong></li>
+                        <li>Operating Systems <strong>(Linux)</strong> - with Linux Pro Certificate</li>
                     </ul>
                 </div>
             </div>
