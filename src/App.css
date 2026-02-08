@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  background: url('./assets/mainBackground.jpg'), rgba(47, 79, 79, .5);
+  font-size: 22px;
+  background: url('./assets/mainBackground.jpg'), rgba(47, 79, 79, 0.5);
   background-blend-mode: darken;
   background-size: cover;
 }
@@ -84,19 +84,19 @@ footer {
 }
 
 footer a,
-div p li a {
+#page-body div li a {
   color: aquamarine
 }
 
 footer a:hover,
 footer a:hover:visited,
-div p a:hover,
-div p a:hover:visited {
+#page-body div a:hover,
+#page-body div a:hover:visited {
   color: plum
 }
 
 footer a:visited,
-div a:visited {
+#page-body div a:visited {
   color: coral
 }
 

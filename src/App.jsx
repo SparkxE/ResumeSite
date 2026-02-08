@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router';
+import { BrowserRouter, Routes, Route, Link } from 'react-router';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -15,7 +14,25 @@ function App() {
     <BrowserRouter>
       <div className='App'>
         <div id='NavbarItem'>
-          <NavBar />
+          <nav>
+            <ul>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/about">About</Link>
+                </li>
+                <li>
+                    <Link to="/history">Work History</Link>
+                </li>
+                <li>
+                    <Link to="/education">Education</Link>
+                </li>
+                <li>
+                    <Link to="/contact">Contact</Link>
+                </li>
+            </ul>
+        </nav>
         </div>
         <div id='page-body'>
           <Routes>
