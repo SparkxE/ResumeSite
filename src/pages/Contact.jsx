@@ -8,7 +8,7 @@ function Contact() {
                     <ul>
                         <h2>Direct Contact: </h2>
                         <li>Email: <a href="mailto:AaronLAnderson972@gmail.com" title="Contact Aaron Anderson via Email">AaronLAnderson972@gmail.com</a></li>
-                        <li>Phone: (763) 898-6748</li>
+                        <li>Phone: <a href="tel:+1 (763) 898-6748">(763) 898-6748</a></li>
                     </ul>
                 </div>
                 <div>
