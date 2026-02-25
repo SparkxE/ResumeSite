@@ -17,31 +17,31 @@ function App() {
           <nav>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/ResumeSite/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/ResumeSite/about">About</Link>
                 </li>
                 <li>
-                    <Link to="/history">Work History</Link>
+                    <Link to="/ResumeSite/history">Work History</Link>
                 </li>
                 <li>
-                    <Link to="/education">Education</Link>
+                    <Link to="/ResumeSite/education">Education</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/ResumeSite/contact">Contact</Link>
                 </li>
             </ul>
         </nav>
         </div>
         <div id='page-body'>
           <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='/about' element={<About />}></Route>
-            <Route path='/history' element={<WorkHistory />}></Route>
-            <Route path='/education' element={<Education />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
-            <Route path='/notFound' element={<NotFound />}></Route>
+            <Route path='/ResumeSite/' element={<Home />}></Route>
+            <Route path='/ResumeSite/about' element={<About />}></Route>
+            <Route path='/ResumeSite/history' element={<WorkHistory />}></Route>
+            <Route path='/ResumeSite/education' element={<Education />}></Route>
+            <Route path='/ResumeSite/contact' element={<Contact />}></Route>
+            <Route path='/ResumeSite/notFound' element={<NotFound />}></Route>
           </Routes>
         </div>
         <div>
