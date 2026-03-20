@@ -16,6 +16,7 @@ function Contact() {
                         <h2>Profiles: </h2>
                         <li>GitHub: <a href="https://www.github.com/SparkxE" title="Aaron Anderson's Projects on Github">github.com/SparkxE</a></li>
                         <li>LinkedIn: <a href="https://www.linkedin.com/in/andersonaaronl/" title="Aaron Anderson on LinkedIn">linkedin.com/in/andersonaaronl/</a></li>
+                        <li>Itch.io Train Station Desktop Pet: <a href="https://spark-e.itch.io/desktop-train-pet" title="Aaron Anderson's Train Desktop Pet Project">spark-e.itch.io/desktop-train-pet</a></li>
                     </ul>
                 </div>
             </div>
