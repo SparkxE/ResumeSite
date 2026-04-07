@@ -1,8 +1,9 @@
+import { isMobile } from "../isMobile";
 function WorkHistory() {
 
     return (
         <div id="work-history">
-            <h1>Current Work History</h1>
+            <h1>{isMobile() ? "Work History" : "Current Work History"}</h1>
             <div id="employers">
                 <div>
                     <ul>
@@ -12,21 +13,22 @@ function WorkHistory() {
                         <em>Sept. 2022 - May 2023</em>
                         <li>
                             Used React and JavaScript to assist
-                            <br />application developers with production of
-                            <br />Mobile and Web Apps used on
+                            application developers with production of
+                            Mobile and Web Apps used on
                             Construction Sites
                         </li>
                         <li>
                             Performed manual testing to ensure that
-                            <br />changes and updates made to apps met
-                            <br />user and company standards
+                            changes and updates made to apps met
+                            user and company standards
                         </li>
+                        {isMobile() ? "" :
+                            <li>
+                                Worked on the refinement and documentation
+                                of IT Department processes
+                            </li>}
                         <li>
-                            Worked on the refinement and documentation
-                            <br />of IT Department processes
-                        </li>
-                        <li>
-                            Used Boomi middleware to connect solutions to data and automate software interactions
+                            {isMobile() ? "Used Boomi middleware to connect software to data sources" : "Used Boomi middleware to connect solutions to data and automate software interactions"}
                         </li>
                     </ul>
                 </div>

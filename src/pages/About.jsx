@@ -14,9 +14,10 @@ function About() {
                 most recently using VPS servers being hosted by both Google Cloud Platform and Amazon Web Service.
                 <br />
                 <br />
-                I'm currently most familiar with the C# and JavaScript programming languages as those are the languages
-                that I've used the most throughout my classes, but I'm always open to learning new technologies and methods
-                if needed. I'm also somewhat familiar with Linux environments and have used them for various class projects. 
+                I'm currently most familiar with the C# and JavaScript programming languages as well as HTML & CSS as those 
+                are the languages that I've used the most throughout my classes, but I'm always open to learning 
+                new technologies and methods if needed. I'm also somewhat familiar with Linux environments and have used them 
+                for various class projects. 
             </p>
         </div>
     )

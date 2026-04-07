@@ -1,38 +1,45 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router';
 import './App.css';
+import './MobileStyle.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import WorkHistory from './pages/WorkHistory';
-import NavBar from './components/NavBar';
 import Education from './pages/Education';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import { isMobile } from './isMobile';
 
 function App() {
-
+  var appClass;
+  if (isMobile()) {
+    appClass = "AppMobile";
+  }
+  else {
+    appClass = "App";
+  }
   return (
     <BrowserRouter>
-      <div className='App'>
+      <div id={appClass}>
         <div id='NavbarItem'>
           <nav>
             <ul>
-                <li>
-                    <Link to="/ResumeSite/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/ResumeSite/about">About</Link>
-                </li>
-                <li>
-                    <Link to="/ResumeSite/history">Work History</Link>
-                </li>
-                <li>
-                    <Link to="/ResumeSite/education">Education</Link>
-                </li>
-                <li>
-                    <Link to="/ResumeSite/contact">Contact</Link>
-                </li>
+              <li>
+                <Link to="/ResumeSite/">Home</Link>
+              </li>
+              <li>
+                <Link to="/ResumeSite/about">About</Link>
+              </li>
+              <li>
+                <Link to="/ResumeSite/history">{isMobile() ? "Jobs" : "Work History"}</Link>
+              </li>
+              <li>
+                <Link to="/ResumeSite/education">{isMobile() ? "School" : "Education"}</Link>
+              </li>
+              <li>
+                <Link to="/ResumeSite/contact">Contact</Link>
+              </li>
             </ul>
-        </nav>
+          </nav>
         </div>
         <div id='page-body'>
           <Routes>
