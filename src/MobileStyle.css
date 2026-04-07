@@ -71,8 +71,7 @@
         border-top: 2px solid rgba(49, 49, 49, 0.75);
         text-align: center;
         font-size: 14px;
-        position: fixed;
-        bottom: 0;
+        position:fixed;
         width: 100%;
         background: rgba(100, 115, 115, 0.95);
     }
@@ -101,7 +100,11 @@
     }
 
     #NavbarItem {
-        position: sticky;
+        position: fixed;
+        li {
+            font-size: smaller;
+            padding-top: 5%;
+        }
     }
 
     div {
@@ -157,6 +160,7 @@
         }
         li {
             margin-left: 0;
+            font-size: smaller;
         }
     }
 
@@ -168,16 +172,31 @@
     #contact {
         display: grid;
         width: 90vw;
-        margin-inline-start: 20%;
+        margin-inline-start: 2%;
+        li {
+            margin-left: 0;
+            font-size: smaller;
+        }
+        h1 {
+            padding-top: 10%;
+        }
     }
 
     #education {
-        margin-inline-start: 20%;
+        margin-inline-start: 1%;
+        li {
+            margin-left: 0;
+            font-size: smaller;
+        }
     }
 
     #schools {
         display: flex;
         width: 90vw;
+        font-size: smaller;
+        h2 {
+            font-size: x-small;
+        }
     }
 
     #about {
@@ -191,7 +210,8 @@
         p {
             grid-column: 1 / 3;
             grid-row: 2 / 4;
-            margin-inline-start: 10%;
+            margin-inline-start: 2%;
+            padding-bottom: 10%;
         }
     }
 
