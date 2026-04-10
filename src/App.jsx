@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router';
+import { BrowserRouter, Routes, Route, Link, HashRouter } from 'react-router';
 import './App.css';
 import './MobileStyle.css';
 import Home from './pages/Home';
@@ -18,37 +18,37 @@ function App() {
     appClass = "App";
   }
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div id={appClass}>
         <div id='NavbarItem'>
           <nav>
             <ul>
               <li>
-                <Link to="/ResumeSite/">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/ResumeSite/about">About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/ResumeSite/history">{isMobile() ? "Jobs" : "Work History"}</Link>
+                <Link to="/history">{isMobile() ? "Jobs" : "Work History"}</Link>
               </li>
               <li>
-                <Link to="/ResumeSite/education">{isMobile() ? "School" : "Education"}</Link>
+                <Link to="/education">{isMobile() ? "School" : "Education"}</Link>
               </li>
               <li>
-                <Link to="/ResumeSite/contact">Contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
         </div>
         <div id='page-body'>
           <Routes>
-            <Route path='/ResumeSite/' element={<Home />}></Route>
-            <Route path='/ResumeSite/about' element={<About />}></Route>
-            <Route path='/ResumeSite/history' element={<WorkHistory />}></Route>
-            <Route path='/ResumeSite/education' element={<Education />}></Route>
-            <Route path='/ResumeSite/contact' element={<Contact />}></Route>
-            <Route path='/ResumeSite/notFound' element={<NotFound />}></Route>
+            <Route path='/' element={<Home />}></Route>
+            <Route path='/about' element={<About />}></Route>
+            <Route path='/history' element={<WorkHistory />}></Route>
+            <Route path='/education' element={<Education />}></Route>
+            <Route path='/contact' element={<Contact />}></Route>
+            <Route path='/notFound' element={<NotFound />}></Route>
           </Routes>
         </div>
         <div>
@@ -58,7 +58,7 @@ function App() {
           </footer>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
