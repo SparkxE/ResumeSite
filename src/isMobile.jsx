@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export function isMobile(mobileMaxSize = 801) {
+export function isMobile(mobileMaxSize = 1001) {
     const [isMobile, setMobile] = useState(undefined);
 
     useEffect(() => {
