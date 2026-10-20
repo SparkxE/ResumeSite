@@ -18,6 +18,9 @@ function WorkHistory() {
                             Construction Sites
                         </li>
                         <li>
+                            Assisted with maintenance of company apps through Forms on Fire and other low-code SAAS systems.
+                        </li>
+                        <li>
                             Performed manual testing to ensure that
                             changes and updates made to apps met
                             user and company standards
